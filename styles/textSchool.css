@@ -1,0 +1,68 @@
+
+.text-about-school{
+
+    width: 80%;
+    max-width: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text{
+    width: 100%;
+    
+}
+.text h1{
+    margin:  auto;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.img-aux{
+    width:50rem;
+    margin-left: 0;
+    float: right;
+    padding: 0 4rem;
+    position: relative;
+    z-index: -1;
+    
+}
+
+.img-aux img{
+   width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img-aux .description{
+    position: absolute;
+    bottom: 4rem;
+    left: 7rem;
+
+    background: linear-gradient(to left, rgb(0,0,0,0)10%, white 75% );
+    border-radius: 10px;
+    width: 30rem;
+    max-height: 45rem;
+    padding: 20px;
+
+ 
+}
+
+
+@media (max-width: 50rem) {
+
+    .img-aux{
+        max-width: 100%;
+        padding:0;
+    }
+
+    .img-aux .description{
+        
+        position: initial;
+        padding: 10px;
+        width: 100%;
+        background-color: none;
+    }
+
+}

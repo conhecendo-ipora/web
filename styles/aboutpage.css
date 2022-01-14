@@ -1,0 +1,21 @@
+
+.text-about-school{
+
+    width: 80%;
+    max-width: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+text{
+    width: 100%;
+    
+}
+.text h1{
+    margin:  auto;
+    margin-bottom: 6rem;
+    text-align: center;
+}
