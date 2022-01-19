@@ -29,7 +29,6 @@ html{
 
 body, a{
     font-family: 'Open Sans',sans-serif;
-    height:100%;
 }
 
 
@@ -70,4 +69,8 @@ body, a{
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.7)
 
+}
+
+ul{
+    list-style: none;
 }
