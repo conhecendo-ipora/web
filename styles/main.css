@@ -21,7 +21,7 @@ ul{
     margin: 1.5rem 0 1.5rem 0;
 }
 main{
-    min-height: 650px;
+    min-height: 100%;
 }
 html{
     font-size: 62.5%;
@@ -29,6 +29,7 @@ html{
 
 body, a{
     font-family: 'Open Sans',sans-serif;
+    height: 100%;
 }
 
 

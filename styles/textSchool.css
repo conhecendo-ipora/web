@@ -49,6 +49,23 @@
  
 }
 
+.text-eb{
+
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+
+    font-size: 30px;
+
+  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
 
 @media (max-width: 50rem) {
 
